@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- iconography -->
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon"/>
+  <link rel="apple-touch-icon" sizes="57x57" href="images/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="images/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="images/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="images/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="images/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="images/apple-touch-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon-180x180.png">
+  <link rel="icon" type="image/png" href="images/favicon-16x16.png" sizes="16x16">
+  <link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="images/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="images/android-chrome-192x192.png" sizes="192x192">
+  <meta name="msapplication-square70x70logo" content="images/smalltile.png"/>
+  <meta name="msapplication-square150x150logo" content="images/mediumtile.png"/>
+  <meta name="msapplication-wide310x150logo" content="images/widetile.png"/>
+  <meta name="msapplication-square310x310logo" content="images/largetile.png"/>
+  <title>Death Oracle</title>
+  <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great|Open+Sans|Permanent+Marker" rel="stylesheet">
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+  <div class="wrapper">
+    <main>
+
+      <form action="" class="obituary" id="obituary" name="obituary">
+
+        <h1>Six Million Ways to Die</h1>
+
+        <button class="button button--skull" form="obituary" id="skull" name="choose" type="submit">
+          <img src="images/agent-skully-250x250.png" alt="A cartoon skull">
+        </button>
+        <!-- .button .button--skull #skull -->
+
+        <label class="visually-hidden" for="dearlyDeparted">
+          Enter Your Name
+        </label>
+
+        <input class="dearlyDeparted" id="dearlyDeparted" name="dearlyDeparted" placeholder="💀 Enter Your Name 💀" type="text">
+        <!-- .dearlyDeparted #dearlyDeparted -->
+
+        <p class="dearlyDeparted" id="name">
+          <!-- *poof* you're a name -->
+        </p>
+        <!-- .dearlyDeparted #name -->
+
+        <p class="causeOfDeath" id="causeOfDeath">
+          <!-- a wild sentence appears! -->
+        </p>
+        <!-- .causeOfDeath #causeOfDeath -->
+
+        <button class="button button--text" form="obituary" id="choose" name="choose" type="submit">
+          ( Choose One )
+        </button>
+        <!-- .button .button--text #choose -->
+
+        <button class="button button--text visually-hidden" form="obituary" id="reset" name="reset" type="reset">
+          ( Start Over )
+        </button>
+        <!-- .button .button--text #reset -->
+
+        <a class="button--text tweet visually-hidden">
+          ( Tweet This )
+        </a>
+        <!-- .button--text .tweet -->
+
+      </form>
+      <!-- .obituary #obituary-->
+
+    </main>
+
+    <footer>
+        <a href="https://codepen.io/jensaxena/">
+          <i class="fa fa-codepen fa-fw" aria-hidden="true"></i>
+        </a>
+        <a href="mailto:jen@jensaxena.com">
+          <i class="fa fa-envelope-o fa-fw" aria-hidden="true"></i>
+        </a>
+        <a href="https://github.com/jensaxena">
+          <i class="fa fa-github fa-fw" aria-hidden="true"></i>
+        </a>
+        <a href="https://www.instagram.com/jensaxena/">
+          <i class="fa fa-instagram fa-fw" aria-hidden="true"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/jensaxena/">
+          <i class="fa fa-linkedin fa-fw" aria-hidden="true"></i>
+        </a>
+        <a href="https://medium.com/@jensaxena/">
+          <i class="fa fa-medium fa-fw" aria-hidden="true"></i>
+        </a>
+        <a href="https://twitter.com/jensaxena">
+          <i class="fa fa-twitter fa-fw" aria-hidden="true"></i>
+        </a>
+      <p>
+        <a href="http://www.jensaxena.com">
+          &copy; 2017 Jen Saxena
+        </a>
+        For entertainment purposes only: any resemblance to actual events is entirely coincidental, and extremely strange.
+      </p>
+    </footer>
+
+  </div>
+  <!-- .wrapper -->
+
+  <!-- link scripts -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+  </script>
+
+  <script src="https://use.fontawesome.com/fafaa81dee.js">
+  </script>
+
+  <script src="scripts/twitter.js">
+  </script>
+
+  <script src="scripts/script.js">
+  </script>
+
+</body>
+</html>
