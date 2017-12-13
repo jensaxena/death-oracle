@@ -148,10 +148,10 @@ html {
   line-height: 1; }
 
 body {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.75)), to(rgba(0, 0, 0, 0.75))), url("../images/bg-curtain-greyscale-2000x1500.jpg") no-repeat center/cover;
-  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("../images/bg-curtain-greyscale-2000x1500.jpg") no-repeat center/cover;
-  background: -o-linear-gradient(top, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("../images/bg-curtain-greyscale-2000x1500.jpg") no-repeat center/cover;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("../images/bg-curtain-greyscale-2000x1500.jpg") no-repeat center/cover; }
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.75)), to(rgba(0, 0, 0, 0.75))), url("../images/bg-curtain-greyscale-1500x750.jpg") no-repeat center/cover;
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("../images/bg-curtain-greyscale-1500x750.jpg") no-repeat center/cover;
+  background: -o-linear-gradient(top, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("../images/bg-curtain-greyscale-1500x750.jpg") no-repeat center/cover;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("../images/bg-curtain-greyscale-1500x750.jpg") no-repeat center/cover; }
 
 .wrapper {
   -webkit-box-align: center;
@@ -292,7 +292,7 @@ input:hover {
   background: rgba(255, 255, 255, 0.1); }
 
 .tweet {
-  padding: 1.5rem; }
+  padding: 1.35rem; }
 
 .button--skull {
   background: transparent;
@@ -321,3 +321,11 @@ input:hover {
   to {
     -webkit-transform: rotateY(-360deg);
     transform: rotateY(-360deg); } }
+
+@media screen and (max-width: 600px) {
+  body {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.75)), to(rgba(0, 0, 0, 0.75))), url("../images/bg-curtain-greyscale-600x1000.jpg") no-repeat center/cover;
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("../images/bg-curtain-greyscale-600x1000.jpg") no-repeat center/cover;
+  background: -o-linear-gradient(top, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("../images/bg-curtain-greyscale-600x1000.jpg") no-repeat center/cover;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("../images/bg-curtain-greyscale-600x1000.jpg") no-repeat center/cover; }
+}
